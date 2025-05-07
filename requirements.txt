@@ -1,0 +1,4 @@
+# Dependências Python mínimas
+pygame        # para interface e engine de jogo
+numpy         # cálculos numéricos de física
+pytest        # para testes unitários
