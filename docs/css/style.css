@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&family=Uncial+Antiqua&display=swap');
 
 :root {
   color-scheme: dark;
@@ -21,13 +21,13 @@
 
 body {
   margin: 0;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Alegreya', serif;\n  font-size: 17px;
   color: var(--ink);
   background: radial-gradient(circle at 20% 20%, rgba(120, 95, 170, 0.25), transparent 55%),
               radial-gradient(circle at 80% 10%, rgba(42, 177, 144, 0.2), transparent 60%),
               linear-gradient(130deg, #07060b 0%, #141123 40%, #0c0a14 100%);
   min-height: 100vh;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 a {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Uncial Antiqua', serif;
   font-size: clamp(2.5rem, 5vw, 4.6rem);
   margin: 1.5rem 0 1rem;
   line-height: 1.1;
@@ -162,7 +162,7 @@ h1 {
 }
 
 .nav-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Uncial Antiqua', serif;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -216,7 +216,7 @@ main {
 }
 
 .section-header h2 {
-  font-family: 'Cinzel', serif;
+  font-family: 'Uncial Antiqua', serif;
   font-size: clamp(1.6rem, 3vw, 2.4rem);
   margin: 0 0 0.4rem;
 }
@@ -255,7 +255,7 @@ main {
 }
 
 .season-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Uncial Antiqua', serif;
   font-size: 1.4rem;
   margin-top: 0.6rem;
 }
@@ -274,7 +274,7 @@ main {
 
 .mission-card h3 {
   margin-top: 0;
-  font-family: 'Cinzel', serif;
+  font-family: 'Uncial Antiqua', serif;
 }
 
 .playlist-grid {
@@ -367,7 +367,7 @@ main {
 }
 
 .footer-title {
-  font-family: 'Cinzel', serif;
+  font-family: 'Uncial Antiqua', serif;
   font-size: 1.4rem;
 }
 
@@ -420,3 +420,4 @@ main {
     align-items: flex-start;
   }
 }
+
