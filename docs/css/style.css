@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&family=Uncial+Antiqua&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Spectral:wght@400;500;600&display=swap');
 
 :root {
   color-scheme: dark;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(2.5rem, 5vw, 4.6rem);
   margin: 1.5rem 0 1rem;
   line-height: 1.1;
@@ -162,7 +162,7 @@ h1 {
 }
 
 .nav-title {
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -216,7 +216,7 @@ main {
 }
 
 .section-header h2 {
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.6rem, 3vw, 2.4rem);
   margin: 0 0 0.4rem;
 }
@@ -255,7 +255,7 @@ main {
 }
 
 .season-title {
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem;
   margin-top: 0.6rem;
 }
@@ -274,7 +274,7 @@ main {
 
 .mission-card h3 {
   margin-top: 0;
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .playlist-grid {
@@ -367,7 +367,7 @@ main {
 }
 
 .footer-title {
-  font-family: 'Uncial Antiqua', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem;
 }
 
@@ -420,4 +420,5 @@ main {
     align-items: flex-start;
   }
 }
+
 
