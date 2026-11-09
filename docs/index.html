@@ -1,56 +1,62 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ária da Eutimia Onírica</title>
+  <title>Ária da Eutimia Onírica | RPG</title>
+  <meta name="description" content="Explore a campanha, os reinos e as crônicas de Ária da Eutimia Onírica, um RPG de fantasia ambientado antes dos acontecimentos do livro em desenvolvimento.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="hero" id="inicio">
-    <div class="hero-overlay"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-inner">
-      <div class="hero-tag">Campanha Oficial</div>
+      <div class="hero-tag">RPG · Fantasia sombria e feérica</div>
       <h1>Ária da Eutimia Onírica</h1>
       <p class="hero-lead">Um mundo que sonha acordado, onde deuses disputam destinos, fadas tramam sucessões e a magia cobra seu preço.</p>
+      <p class="hero-lead">Antes dos acontecimentos do livro em desenvolvimento, esta é a era vivida na mesa de RPG.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#temporada">Temporada Atual</a>
-        <a class="btn btn-outline" href="#menu">Explorar o Mundo</a>
+        <a class="btn btn-primary" href="#temporada">Campanha atual</a>
+        <a class="btn btn-outline" href="#menu">Explorar o mundo</a>
       </div>
       <div class="hero-meta">
-        <span>Domínio: walpurgis.uk</span>
+        <span>Crônicas de uma era anterior ao livro</span>
         <span>RPG narrativo</span>
         <span>Fantasia sombria e feérica</span>
       </div>
     </div>
   </header>
 
-  <nav class="main-nav" id="menu">
-    <div class="nav-title">Menu</div>
+  <nav class="main-nav" id="menu" aria-label="Navegação principal">
+    <a class="nav-title" href="#inicio">Ária</a>
     <div class="nav-links">
-      <a href="#mapa">Mapa do Mundo</a>
+      <a href="#temporada">Campanha</a>
+      <a href="#missoes">Missões</a>
+      <a href="#mapa">Reinos</a>
       <a href="#personagens">Lista de Personagens</a>
       <a href="#historia">História do Mundo</a>
-      <a href="#livros">Livros</a>
+      <a href="#cronicas">Crônicas</a>
       <a href="#arsenal">Arsenal</a>
       <a href="#grimorio">Grimório</a>
+      <a href="#playlists">Trilhas</a>
     </div>
   </nav>
 
-  <main>
+  <main id="conteudo">
     <section class="panel" id="temporada">
       <div class="section-header">
-        <h2>Temporada Atual</h2>
+        <h2>Campanha atual</h2>
         <p>O coração da campanha pulsa na Floresta da Vida.</p>
       </div>
       <div class="season-grid">
         <div class="season-card">
-          <div class="season-label">Livro</div>
+          <div class="season-label">Arco da campanha</div>
           <div class="season-title">Floresta da Vida</div>
           <p>A Floresta da Vida é um reino repleto de criaturas mágicas e recursos naturais, mas correm boatos de que sua rainha, forjada na guerra, não está lidando bem com tempos de paz, ou será que é uma profecia que está drenando sua benevolência?</p>
         </div>
         <div class="season-card">
-          <div class="season-label">Capítulo</div>
+          <div class="season-label">Capítulo atual</div>
           <div class="season-title">As tribos das fadas</div>
           <p>Alianças instáveis, intrigas entre herdeiras e o preço das bênçãos feéricas.</p>
         </div>
@@ -65,21 +71,21 @@
       <div class="mission-grid">
         <article class="mission-card">
           <h3>Proteção da tribo Verbenita</h3>
-          <p>Guardas arcanos, ritos antigos e uma floresta que decide quem atravessa seus limites, quem eles irão apoiar na guerra de sucessão?</p>
+          <p>Guardas arcanos, ritos antigos e uma floresta que decide quem atravessa seus limites.</p>
         </article>
         <article class="mission-card">
-          <h3>Aliança na cidadela das fadas</h3>
+          <h3>Aliança na cidadela</h3>
           <p>Diplomacia entre facções rivais, juramentos sussurrados e acordos feitos à sombra.</p>
         </article>
         <article class="mission-card">
           <h3>Extermínio de demônios</h3>
-          <p>Caçadas noturnas, pactos perigosos e a ameaça de Lucifer observando à distância na Floresta da Vida.</p>
+          <p>Caçadas noturnas, pactos perigosos e a ameaça de Lucifer observando à distância.</p>
         </article>
       </div>
        <div class="mission-grid">
         <article class="mission-card">
           <h3>Sabbath</h3>
-          <p>Bruxas se preparam para seu ritual em nome de uma bruxa importante que se foi. Os terrores da floresta e do campo tentam assustar, mas podem se mostrar mais carismaticos que assustadores.</p>
+          <p>Bruxas se preparam para seu ritual em nome de uma bruxa importante que se foi. Os terrores da floresta e do campo tentam assustar, mas podem se mostrar mais carismáticos que assustadores.</p>
         </article>
         <article class="mission-card">
           <h3>Cidade das trevas</h3>
@@ -87,7 +93,7 @@
         </article>
         <article class="mission-card">
           <h3>Palácio de Sprigan</h3>
-          <p>A rainha precisa não somente lidar com a hierarquia demoniaca, mas com um novo incubador de demônios e uma fronteira repleta de criaturas sombrias e fantásticas que tentam sair de Darknessfalls.</p>
+          <p>A rainha precisa não somente lidar com a hierarquia demoníaca, mas com um novo incubador de demônios e uma fronteira repleta de criaturas sombrias e fantásticas que tentam sair de Darknessfalls.</p>
         </article>
       </div>
     </section>
@@ -103,14 +109,14 @@
           <img class="playlist-cover" src="assets/absintia-cover1.png" alt="Capa da playlist Absintia">
           <h3>Absintia</h3>
           <p>A floresta e Absintia ecoam suas melodias.</p>
-          <a class="btn btn-outline" href="https://open.spotify.com/playlist/0VTaTWrOQyXzjNM3Ai45Ku?si=b3a2961b41ba433a" target="_blank" rel="noreferrer">Ouvir no Spotify</a>
+          <a class="btn btn-outline" href="https://open.spotify.com/playlist/0VTaTWrOQyXzjNM3Ai45Ku?si=b3a2961b41ba433a" target="_blank" rel="noopener noreferrer">Ouvir no Spotify</a>
         </div>
         <div class="playlist-card">
           <div class="playlist-tag">YouTube Music</div>
           <img class="playlist-cover" src="assets/absintia-cover.png" alt="Capa da playlist Absintia">
           <h3>Absintia</h3>
           <p>Trilhas cinematográficas para cenas de tensão e revelação.</p>
-          <a class="btn btn-outline" href="https://music.youtube.com/playlist?list=PLaZQFoYxOxVT0LhWg7poToFKVe8KqXq73&si=ezgWRtXYETlaN5Ub" target="_blank" rel="noreferrer">Ouvir no YouTube Music</a>
+          <a class="btn btn-outline" href="https://music.youtube.com/playlist?list=PLaZQFoYxOxVT0LhWg7poToFKVe8KqXq73&si=ezgWRtXYETlaN5Ub" target="_blank" rel="noopener noreferrer">Ouvir no YouTube Music</a>
         </div>
       </div>
     </section>
@@ -138,8 +144,8 @@
 
     <section class="panel" id="mapa">
       <div class="section-header">
-        <h2>Mapa do Mundo</h2>
-        <p>Uma visão das nações e seus estilos culturais.</p>
+        <h2>Reinos do mundo</h2>
+        <p>Lugares e conflitos que fazem parte do cenário da campanha.</p>
       </div>
       <div class="realm-grid">
         <article class="realm-card realm-solargarden">
@@ -148,15 +154,15 @@
         </article>
         <article class="realm-card realm-floresta">
           <h3>Floresta da Vida</h3>
-          <p>Titânia a rainha das fadas, invasão demoniaca, sonhos e intrigas de sucessão.</p>
+          <p>Titânia a rainha das fadas, invasão demoníaca, sonhos e intrigas de sucessão.</p>
         </article>
         <article class="realm-card realm-darknessfalls">
           <h3>Darknessfalls</h3>
-          <p>Sprigan, Sabbath, os herdeiros demoniacos, ???, ???.</p>
+          <p>Sprigan, Sabbath e os herdeiros demoníacos. Uma cidade de guildas, magia e ameaças nas fronteiras.</p>
         </article>
         <article class="realm-card realm-bismutopolis">
           <h3>Bismutopolis</h3>
-          <p>???, ???, ???, ???.</p>
+          <p>Uma nação que avança sem deuses, enquanto segredos subterrâneos desafiam a fé.</p>
         </article>
       </div>
     </section>
@@ -164,20 +170,20 @@
     <section class="panel" id="personagens">
       <div class="section-header">
         <h2>Lista de Personagens</h2>
-        <p>Em breve: perfis, linhagens, alianças e destinos.</p>
+        <p>Perfis, linhagens e alianças dos personagens da campanha.</p>
       </div>
       <div class="placeholder">
-        <span>Adicionar fichas de personagens aqui.</span>
+        <span>As fichas dos personagens ainda não foram publicadas.</span>
       </div>
     </section>
 
-    <section class="panel" id="livros">
+    <section class="panel" id="cronicas">
       <div class="section-header">
-        <h2>Livros</h2>
-        <p>Resumo das campanhas anteriores e eventos que moldaram o mundo.</p>
+        <h2>Crônicas da campanha</h2>
+        <p>Registros das sessões e dos acontecimentos vividos no RPG, antes da histÁria do livro.</p>
       </div>
       <div class="placeholder">
-        <span>Adicionar cronologia dos livros e resumos.</span>
+        <span>Os resumos das sessões e a cronologia da campanha ainda não foram publicados.</span>
       </div>
     </section>
 
@@ -187,7 +193,7 @@
         <p>Armas lendárias, artefatos e itens citados nas campanhas.</p>
       </div>
       <div class="placeholder">
-        <span>Adicionar lista de armas aqui.</span>
+        <span>Os registros de armas e artefatos da campanha ainda não foram publicados.</span>
       </div>
     </section>
 
@@ -197,7 +203,7 @@
         <p>Magias originais além do sistema D&amp;D 5e.</p>
       </div>
       <div class="placeholder">
-        <span>Adicionar lista de magias aqui.</span>
+        <span>As magias originais da campanha ainda não foram publicadas.</span>
       </div>
     </section>
   </main>
@@ -206,7 +212,7 @@
     <div class="footer-inner">
       <div>
         <div class="footer-title">Ária da Eutimia Onírica</div>
-        <p>Crônicas da campanha, registros do mundo e trilhas oficiais.</p>
+        <p>O passado do universo do livro, vivido em uma campanha de RPG.</p>
       </div>
       <div class="footer-meta">
         <span>Atualizado em 2026</span>

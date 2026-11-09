@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Spectral:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Spectral:wght@400;500;600&display=swap');
 
 :root {
   color-scheme: dark;
@@ -21,7 +21,8 @@
 
 body {
   margin: 0;
-  font-family: 'Alegreya', serif;\n  font-size: 17px;
+  font-family: 'Spectral', serif;
+  font-size: 17px;
   color: var(--ink);
   background: radial-gradient(circle at 20% 20%, rgba(120, 95, 170, 0.25), transparent 55%),
               radial-gradient(circle at 80% 10%, rgba(42, 177, 144, 0.2), transparent 60%),
@@ -437,3 +438,21 @@ main {
 }
 
 
+
+/* Navegação e leitura acessíveis em telas de diferentes tamanhos. */
+html { scroll-padding-top: 9rem; }
+.skip-link { position: fixed; top: -6rem; left: 1rem; z-index: 100; padding: .75rem 1rem; background: var(--ink); color: var(--bg); }
+.skip-link:focus { top: 1rem; }
+a:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 5px; }
+.btn-primary:hover { color: #1a1410; }
+.realm-card::after { pointer-events: none; }
+main { max-width: 1440px; margin-inline: auto; }
+@media (max-width: 640px) {
+  html { scroll-padding-top: 1rem; }
+  .season-grid, .mission-grid, .playlist-grid, .story-grid, .realm-grid { grid-template-columns: minmax(0, 1fr); }
+  .panel { padding: 1.5rem 1rem; }
+  .nav-links { gap: .75rem 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

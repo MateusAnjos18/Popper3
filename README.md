@@ -1,36 +1,31 @@
-# Popper 3
+# Ária da Eutimia Onírica
 
-**Popper 3** é um RPG educativo que explora conceitos de Física desde uma abordagem histórica e epistemológica, inspirado na filosofia de Karl Popper.
+Site do RPG de fantasia sombria e feérica ambientado no passado do universo de um livro em desenvolvimento. Reúne a campanha atual, missões, regiões, personagens, crônicas, arsenal, grimório e trilhas sonoras.
 
-## Objetivos
+## Executar localmente
 
-- Introduzir conceitos fundamentais de Física em um ambiente lúdico.
-- Contextualizar descobertas históricas e debates epistemológicos.
-- Estimular o pensamento crítico por meio de experimentação simulada.
+O site é estático e não exige instalação de dependências. Na raiz do projeto, execute:
 
-## Como executar
+```sh
+python -m http.server 8000 --directory docs
+```
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/Popper3.git
-   ```
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd Popper3/src
-   ```
-3. Instale dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Inicie o jogo:
-   ```bash
-   python main.py
-   ```
+Abra http://localhost:8000 no navegador. Também é possível abrir `docs/index.html` diretamente.
 
 ## Estrutura
 
-Consulte a [estrutura de diretórios](#estrutura-de-diretórios) para detalhes sobre cada pasta.
+- `docs/index.html`: página do RPG e conteúdo da campanha.
+- `docs/css/style.css`: identidade visual e layout responsivo.
+- `docs/assets/`: imagens e capas das playlists.
+- `docs/CNAME`: domínio personalizado `walpurgis.uk`.
+- `archive/tcc/`: proposta, referências e protótipo Python do projeto acadêmico anterior; não fazem parte do site.
 
-## Contribuindo
+## Publicação
 
-Sinta-se à vontade para abrir _issues_ e _pull requests_. Veja o arquivo `CONTRIBUTING.md` para mais informações.
+Para publicação com GitHub Pages, use a pasta `/docs` da branch escolhida no repositório. O arquivo CNAME mantém o domínio personalizado; a configuração de DNS é feita no provedor do domínio.
+
+## Conteúdo e cronologia
+
+O foco é a campanha de RPG. Seus acontecimentos antecedem a narrativa do livro em desenvolvimento. O site não apresenta o enredo futuro do livro nem presume datas ou relações entre eventos que ainda não foram definidas pelo autor.
+
+Consulte [CONTRIBUTING.md](CONTRIBUTING.md) para orientações de edição.
